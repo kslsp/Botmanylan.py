@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini App</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  body {
+    font-family: -apple-system, sans-serif;
+    background: #1c1c1e;
+    color: #fff;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  h1 { font-size: 22px; color: #2AABEE; }
+  .card {
+    background: #2c2c2e;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 16px;
+  }
+</style>
+</head>
+<body>
+  <h1>Мануал на сН0с</h1>
+  <div class="card">
+    <p>Здравствуйте уважаемая поддержка, на вашей платформе я нашел пользователя, который занимается (например доксингом, тут пишешь свою причину), и сливает данные за деньги, что нарушает права, а также безопасность другого пользователя, что может принести травму психики, или физический вред. Юз данного человека - (юз). Ссылка на нарушение - (ссылка). Прошу принять меры, ради безопасности пользователей вашей платформы</p>
+  </div>
+  <script>
+    const tg = window.Telegram.WebApp;
+    tg.ready();
+    tg.expand();
+  </script>
+</body>
+</html>
